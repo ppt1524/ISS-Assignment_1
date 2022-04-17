@@ -1,2 +1,2 @@
 #!/bin/bash
-sed -i '/^\s*$/d' quotes.txt
+sed -r '/^\s*$/d' quotes.txt
